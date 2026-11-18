@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mesin Waktu TI</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="era" id="era" data-e="0">
+  <div class="wrap">
+    <div class="top"><strong>Mesin Waktu TI</strong><span>Geser untuk berpindah era teknologi informasi</span></div>
+    <div class="year" id="year" aria-live="polite">1940–1955</div>
+    <h2 id="title">Era tabung vakum</h2>
+    <p class="lead" id="desc"></p>
+    <div class="grid">
+      <div class="box"><h3>Teknologi kunci</h3><ul id="tech"></ul></div>
+      <div class="box"><h3>Tokoh dan peristiwa</h3><ul id="who"></ul></div>
+    </div>
+    <div class="ctl">
+      <label for="slider">Pilih era</label>
+      <input type="range" id="slider" min="0" max="5" step="1" value="0">
+      <div class="stops" id="stops"></div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="s">
+  <div class="wrap">
+    <h2>Istilah penting di PTI</h2>
+    <p>Ketuk istilah untuk membaca artinya.</p>
+    <details><summary>Hardware</summary><p>Perangkat keras yang bisa disentuh, misalnya prosesor, RAM, harddisk, keyboard, dan monitor.</p></details>
+    <details><summary>Software</summary><p>Program yang memberi perintah kepada hardware, seperti sistem operasi, aplikasi perkantoran, dan browser.</p></details>
+    <details><summary>Brainware</summary><p>Manusia yang mengoperasikan, merancang, dan mengelola sistem komputer, misalnya programmer, analis sistem, dan operator.</p></details>
+    <details><summary>Jaringan komputer</summary><p>Kumpulan perangkat yang saling terhubung untuk bertukar data dan berbagi sumber daya. Internet adalah jaringan terbesar di dunia.</p></details>
+    <details><summary>Data dan informasi</summary><p>Data adalah fakta mentah. Informasi adalah data yang sudah diolah sehingga bermakna dan berguna untuk mengambil keputusan.</p></details>
+    <details><summary>Kecerdasan buatan (AI)</summary><p>Sistem komputer yang bisa mengerjakan tugas yang biasanya butuh kecerdasan manusia, seperti mengenali gambar, menerjemahkan bahasa, dan menjawab pertanyaan.</p></details>
+  </div>
+</section>
+
+<section class="s">
+  <div class="wrap">
+    <h2>Dampak TI dalam kehidupan</h2>
+    <p>Perkembangan teknologi mengubah cara kita belajar, bekerja, dan berkomunikasi.</p>
+    <div class="tri">
+      <div><h3>Pendidikan</h3><p>Kelas daring, e-book, dan sumber belajar gratis bisa diakses dari mana saja.</p></div>
+      <div><h3>Pekerjaan</h3><p>Rapat jarak jauh, otomatisasi, dan profesi baru seperti data analyst dan UI designer.</p></div>
+      <div><h3>Sosial</h3><p>Komunikasi instan lintas negara, tetapi juga muncul tantangan hoaks dan privasi data.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">Dibuat untuk tugas Pengantar Teknologi Informasi. Tahun dan peristiwa mengacu pada sejarah komputasi yang umum diajarkan.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
